@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="LOS" fetch="https://github.com/LineageOS" />
-  <remote name="andy" fetch="https://github.com/itsmeNaraa" />
+  <remote name="narachan" fetch="https://github.com/itsmeNaraa" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
 
   <!-- Device Trees Common -->
