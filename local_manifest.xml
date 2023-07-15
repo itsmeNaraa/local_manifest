@@ -16,7 +16,7 @@
   <project path="kernel/xiaomi/sm6375" name="android_kernel_xiaomi_sm6375.git" remote="devs" revision="lineage-20" />
 
   <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/moonstone" name="device_xiaomi_moonstone-kernel.git" remote="dblenk" revision="lineage-20" />
+  <project path="kernel/xiaomi/moonstone-kernel" name="device_xiaomi_moonstone-kernel.git" remote="dblenk" revision="lineage-20" />
 
   <!-- Vendor Trees Common -->
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi.git" remote="dblenk" revision="lineage-20" />
