@@ -5,12 +5,13 @@
   <remote name="dblenk" fetch="https://github.com/Xiaomi-SM6375" />
   <remote name="devs" fetch="https://github.com/xiaomi-sm6375-devs" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
+  <remote name="kristo" fetch="https://github.com/CEKIKOFGAMERS" />
 
   <!-- Device Trees Common -->
   <project path="device/xiaomi/sm6375-common" name="device_xiaomi_sm6375-common.git" remote="dblenk" revision="lineage-20" />
     
   <!-- Device Trees -->
-  <project path="device/xiaomi/moonstone" name="device_xiaomi_moonstone.git" remote="narachan" revision="havoc" />
+  <project path="device/xiaomi/moonstone" name="device_xiaomi_moonstone.git" remote="kristo" revision="blaze-rom" />
 
   <!-- Kernel Common Trees-->
   <project path="kernel/xiaomi/sm6375" name="android_kernel_xiaomi_sm6375.git" remote="devs" revision="lineage-20" />
