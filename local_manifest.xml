@@ -6,7 +6,7 @@
   <remote name="devs" fetch="https://github.com/xiaomi-sm6375-devs" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
   <remote name="kristo" fetch="https://github.com/CEKIKOFGAMERS"/>
-  <remove name="orgkristo" fetch="https://github.com/KristoforusROM"/>
+  <remote name="orgkristo" fetch="https://github.com/KristoforusROM"/>
 
   <!-- Device Trees Common -->
   <project path="device/xiaomi/miholi-common" name="device_xiaomi_miholi-common.git" remote="orgkristo" revision="lineage-20" />
