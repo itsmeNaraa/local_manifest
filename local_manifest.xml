@@ -3,21 +3,16 @@
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="narachan" fetch="https://github.com/itsmeNaraa" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
-
-  <!-- Device Trees Common -->
-  <project path="device/xiaomi/sm6375" name="android_device_xiaomi_sm6375-common.git" remote="narachan" revision="lineage-20" clone-depth="1" />
+  <remote name="kristo" fetch="https://github.com/moonstone-devs"/>
     
   <!-- Device Trees -->
-  <project path="device/xiaomi/moonstone" name="android_device_xiaomi_moonstone.git" remote="narachan" revision="lineage-20" clone-depth="1" />
+  <project path="device/xiaomi/moonstone" name="device_xiaomi_moonstone.git" remote="kristo" revision="13" clone-depth="1" />
 
   <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/moonstone" name="android_device_xiaomi_moonstone-kernel.git" remote="narachan" revision="lineage-20" clone-depth="1" />
-
-  <!-- Vendor Trees Common -->
-  <project path="vendor/xiaomi/sm6375" name="android_vendor_xiaomi_sm6375-common.git" remote="narachan" revision="lineage-20" clone-depth="1" />
+  <project path="kernel/xiaomi/moonstone" name="kernel_xiaomi_sm6375.git" remote="kristo" revision="twelve" clone-depth="1" />
       
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/moonstone" name="android_vendor_xiaomi_moonstone.git" remote="narachan" revision="lineage-20" clone-depth="1" />
+  <project path="vendor/xiaomi/moonstone" name="vendor_xiaomi_moonstone.git" remote="kristo" revision="lineage-20" clone-depth="1" />
 
   <!-- Hardware -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="LOS" revision="lineage-20" />
